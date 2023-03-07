@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondary_graph"
+    app:startDestination="@id/mainSubAFragment"
+    >
+
+    <fragment
+        android:id="@+id/mainSubAFragment"
+        android:name="com.davidmatillacode.pruebanavigations.ui.main.MainSubAFragment"
+        android:label="fragment_main_sub_a"
+        tools:layout="@layout/fragment_main_sub_a" >
+        <action
+            android:id="@+id/action_mainSubAFragment_to_mainSubBFragment"
+            app:destination="@id/mainSubBFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainSubBFragment"
+        android:name="com.davidmatillacode.pruebanavigations.ui.main.MainSubBFragment"
+        android:label="fragment_main_sub_b"
+        tools:layout="@layout/fragment_main_sub_b" >
+
+    </fragment>
+
+</navigation>

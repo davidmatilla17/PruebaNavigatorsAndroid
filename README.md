@@ -1,0 +1,1 @@
+Proyecto simple creado como ejemplo de como funciona los navigators en Android
